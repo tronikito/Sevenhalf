@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/i_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/i_rate"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/i_mail"
+            android:title="@string/contact_us" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/resetgame"
+            android:icon="@drawable/i_reset"
+            android:title="@string/reset_game" />
+    </group>
+</menu>
